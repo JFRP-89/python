@@ -1,0 +1,37 @@
+{
+        "clusters" :[
+                {
+                        "clusterName": "name",
+                        "metadata":{
+                                "sizingValues":{
+                                        "window_operation_hr":"0",
+                                        "events_per_day":"",
+                                        "events_peek_per_sec":"",
+                                        "event_mean_sike_kb":"1k",
+                                        "compression":"snappy",
+                                        "compactation":"compact",
+                                        "serialization":"json"
+                                },
+                                "producers":[{
+                                        "topic":"valor1.valor2.completed.v1",
+                                        "domain":"valor1",
+                                        "subdomain":"valor2",
+                                        "schemaName":"completed",
+                                        "schemaVersion":"v1",
+                                        "hours_retention":"48"
+                                        },
+                                             {
+                                        "topic":"valor3.valor4.completed.v1",
+                                        "domain":"valor3",
+                                        "subdomain":"valor4",
+                                        "schemaName":"completed",
+                                        "schemaVersion":"v1",
+                                        "hours_retention":"48"
+                                        }
+                                ]
+                        }
+                },
+                {},
+                {}
+        ]
+}
